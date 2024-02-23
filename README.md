@@ -1,12 +1,16 @@
 # Kotori 手把手安装教程
 
+<video controls>
+  <source src="https://raw.githubusercontent.com/kotorijs/res/master/video/Kotori.mp4?raw=true" type="video/mp4" />
+</video>
+
 ## 创建文件夹
 
 名字任意即可，并进入该文件夹。
 
 ## 使用包管理工具安装
 
- 推荐使用 `npm` 或 `yarn`，请勿使用 `pnpm`，该方法下会有问题。
+推荐使用 `npm` 或 `yarn`，请勿使用 `pnpm`，该方法下会有问题。
 
 ```sh
 npm install kotori-bot
@@ -49,7 +53,7 @@ plugin:
 在根目录内新建文件 `start.后缀` 文件，对于具体后缀取决于你的操作系统：
 
 - Windows 系统：`.bat`, `.cmd`, `.ps1` 均可
-- Linux 系统：`.sh` 
+- Linux 系统：`.sh`
 
 写入以下内容：
 
@@ -69,7 +73,7 @@ npm start
 此处收录了大部分的 Kotori 模块，选择自己喜欢的模块打开详情页查看说明，复制包名使用你的包管理器进行安装。以下指令会为你安装一些重要的基础插件：
 
 ```sh
-npm install @kotori-bot/kotori-plugin-access @kotori-bot/kotori-plugin-adapter-sandbox @kotori-bot/kotori-plugin-adapter-cmd @kotori-bot/kotori-plugin-alias @kotori-bot/kotori-plugin-core @kotori-bot/kotori-plugin-helper @kotori-bot/kotori-plugin-i18n-command @kotori-bot/kotori-plugin-menu @kotori-bot/kotori-plugin-status @kotori-bot/kotori-plugin-webui 
+npm install @kotori-bot/kotori-plugin-access @kotori-bot/kotori-plugin-adapter-sandbox @kotori-bot/kotori-plugin-adapter-cmd @kotori-bot/kotori-plugin-alias @kotori-bot/kotori-plugin-core @kotori-bot/kotori-plugin-helper @kotori-bot/kotori-plugin-i18n-command @kotori-bot/kotori-plugin-menu @kotori-bot/kotori-plugin-status @kotori-bot/kotori-plugin-webui
 ```
 
 ## 设置 Webui
