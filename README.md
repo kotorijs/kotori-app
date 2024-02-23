@@ -1,8 +1,9 @@
 # Kotori 手把手安装教程
 
-<video controls>
-  <source src="https://raw.githubusercontent.com/kotorijs/res/master/video/Kotori.mp4?raw=true" type="video/mp4" />
+<video controls src="https://raw.githubusercontent.com/kotorijs/res/master/video/Kotori.mp4?raw=true" >
 </video>
+
+- [视频教程](https://raw.githubusercontent.com/kotorijs/res/master/video/Kotori.mp4?raw=true)
 
 ## 创建文件夹
 
