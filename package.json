@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@kotori-bot/kotori-plugin-access": "^1.0.0",
+    "@kotori-bot/kotori-plugin-adapter-cmd": "^1.1.0",
+    "@kotori-bot/kotori-plugin-adapter-sandbox": "^1.0.0",
+    "@kotori-bot/kotori-plugin-alias": "^1.0.0",
+    "@kotori-bot/kotori-plugin-core": "^1.2.1",
+    "@kotori-bot/kotori-plugin-helper": "^1.2.1",
+    "@kotori-bot/kotori-plugin-i18n-command": "^1.2.1",
+    "@kotori-bot/kotori-plugin-menu": "^1.1.0",
+    "@kotori-bot/kotori-plugin-status": "^1.0.0",
+    "@kotori-bot/kotori-plugin-webui": "^1.0.0",
+    "kotori-bot": "^1.3.1",
+    "kotori-plugin-hitokotos": "^1.2.0",
+    "kotori-plugin-penis": "^1.2.1",
+    "kotori-plugin-randomimg": "^1.2.1"
+  }
+}
