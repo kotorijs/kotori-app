@@ -1,2 +1,1 @@
-cd ./node_modules/kotori-bot
-npm start
+npm exec kotori
