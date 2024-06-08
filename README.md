@@ -1,9 +1,11 @@
 # Kotori 一键安装包
 
-<video controls src="https://raw.githubusercontent.com/kotorijs/res/master/video/Kotori.mp4?raw=true" >
-</video>
+<div align="center">
+  <img src="https://pic.imgdb.cn/item/666313795e6d1bfa056104cd.jpg" alt="b_73db5f2400041414479b949766b08712.jpg" width="210">
 
-- [视频教程](https://raw.githubusercontent.com/kotorijs/res/master/video/Kotori.mp4?raw=true)
+## 看完后还不会安装 Kotori 的话，小鸟小姐就要哭了 www
+
+</div>
 
 ## 使用方法
 
@@ -27,18 +29,16 @@ git clone https://github.com/kotorijs/kotori-app.git
 
   2.安装项目依赖
 
-支持 `npm`、`yarn`、`pnpm` 等主流包管理器安装，`cnpm`、`deno`、`bun` 未经测试，但理论仍可以进行安装并运行。先进入仓库根目录，输入以下任一命令安装：
+支持 `npm`、`yarn` 主流包管理器安装，`pnpm` 安装后可能存在启动问题，`cnpm`、`deno`、`bun` 未经测试，但理论仍可以进行安装并运行。先进入仓库根目录，输入以下任一命令安装：
 
 ```bash
 npm i
 ```
 
-```bash
-yarn
-```
+强制更新所有包：
 
 ```bash
-pnpm i
+npm update -f
 ```
 
 ### 配置 `kotori.toml`
@@ -73,6 +73,16 @@ pnpm i
 - 模块中心：[https://kotori.js.org/modules/](https://kotori.js.org/modules/)
 
 此处收录了大部分的 Kotori 模块，选择自己喜欢的模块打开详情页查看说明，复制包名使用你的包管理器进行安装。以下指令会为你安装一些重要的基础插件：
+
+### 更新 Kotori 与模块
+
+一般地，在需要更新时使用以下命令即可进行更新：
+
+```bash
+npm update -f
+```
+
+此外，当变动较大时可重新重复上述安装步骤。
 
 ## 参考
 
