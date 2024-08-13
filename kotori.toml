@@ -1,8 +1,11 @@
 [global]
 port = 720
-lang = "en_US"
-command-prefix = "/"
-dirs = ["./node_modules/", "./node_modules/@kotori-bot/"]
+dbPrefix = "romiChan"
+lang = "zh_CN"
+commandPrefix = "/"
+dirs = []
+noColor = false
+level = 20
 
 [adapter.cmd-test]
 extends = "cmd"
