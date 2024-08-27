@@ -3,7 +3,7 @@
 <!-- markdownlint-disable -->
 
 <div align="center">
-  <img src="https://pic.imgdb.cn/item/666313795e6d1bfa056104cd.jpg" alt="b_73db5f2400041414479b949766b08712.jpg" width="210">
+  <img src="https://raw.githubusercontent.com/kotorijs/res/master/cry.png" width="210">
 
 ## 看完后还不会安装 Kotori 的话，小鸟小姐就要哭了 www
 
