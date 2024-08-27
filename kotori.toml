@@ -5,7 +5,7 @@ lang = "zh_CN"
 commandPrefix = "/"
 dirs = []
 noColor = false
-level = 20
+level = 25
 
 [adapter.cmd-test]
 extends = "cmd"
