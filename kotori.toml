@@ -1,9 +1,9 @@
 [global]
-port = 720
+port = 7200
 dbPrefix = "romiChan"
 lang = "zh_CN"
 commandPrefix = "/"
-dirs = []
+dirs = ["modules", "./node_modules/", "./node_modules/@kotori-bot/"]
 noColor = false
 level = 25
 

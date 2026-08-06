@@ -1,23 +1,24 @@
 {
-  "name": "kotori-app",
-  "description": "Kotori Bot Application",
-  "scripts": {
-    "start": "kotori",
-    "up:only": "npx npm-check-updates -u",
-    "up": "npm run up:only && npm install"
-  },
-  "dependencies": {
-    "@kotori-bot/kotori-plugin-access": "^1.0.2",
-    "@kotori-bot/kotori-plugin-adapter-cmd": "^1.1.1",
-    "@kotori-bot/kotori-plugin-adapter-onebot": "^2.1.1",
-    "@kotori-bot/kotori-plugin-adapter-qq": "^1.2.0",
-    "@kotori-bot/kotori-plugin-adapter-sandbox": "^1.1.1",
-    "@kotori-bot/kotori-plugin-core": "^1.5.1",
-    "@kotori-bot/kotori-plugin-filter": "^1.1.0",
-    "@kotori-bot/kotori-plugin-helper": "^1.4.0",
-    "@kotori-bot/kotori-plugin-status": "^1.0.0",
-    "@kotori-bot/kotori-plugin-webui": "^1.5.1",
-    "kotori-bot": "^1.7.3",
-    "kotori-plugin-requester": "^1.1.2"
-  }
+	"name": "kotori-app",
+	"description": "Kotori Bot Application",
+	"scripts": {
+		"start": "kotori",
+		"up:only": "npx npm-check-updates -u",
+		"up": "npm run up:only && npm install"
+	},
+	"dependencies": {
+		"@kotori-bot/kotori-plugin-access": "^1",
+		"@kotori-bot/kotori-plugin-adapter-cmd": "^1",
+		"@kotori-bot/kotori-plugin-adapter-onebot": "^2",
+		"@kotori-bot/kotori-plugin-adapter-qq": "^1",
+		"@kotori-bot/kotori-plugin-adapter-sandbox": "^1",
+		"@kotori-bot/kotori-plugin-core": "^1",
+		"@kotori-bot/kotori-plugin-filter": "^1",
+		"@kotori-bot/kotori-plugin-helper": "^1",
+		"@kotori-bot/kotori-plugin-status": "^1",
+		"@kotori-bot/webui": "^1",
+		"@kotori-bot/makichan": "^1",
+		"kotori-bot": "^1",
+		"kotori-plugin-requester": "^1"
+	}
 }
