@@ -16,7 +16,7 @@
 		"@kotori-bot/kotori-plugin-filter": "^1",
 		"@kotori-bot/kotori-plugin-helper": "^1",
 		"@kotori-bot/kotori-plugin-status": "^1",
-		"@kotori-bot/webui": "^1",
+		"@kotori-bot/kotori-plugin-webui": "^1",
 		"@kotori-bot/makichan": "^1",
 		"kotori-bot": "^1",
 		"kotori-plugin-requester": "^1"
